@@ -1,0 +1,133 @@
+/* style.css */
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'poppins', sans-serif;
+}
+
+body {
+	background-color: #404245;
+	;
+}
+
+.container {
+	display: flex;
+}
+
+.navigation {
+	width: 9%;
+	background-color: rgb(17, 41, 73);
+	padding: 20px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	border-radius: 10px;
+}
+
+.navigation img {
+	width: 80px;
+	/* Adjust the width as needed */
+	height: 80px;
+	margin-bottom: 10px;
+}
+
+.icons img {
+	width: 30px;
+	/* Adjust the width as needed */
+	height: auto;
+	margin-right: 10px;
+	border: 2px solid transparent;
+	/* Add border */
+	border-radius: 50%;
+	/* Add border radius */
+	transition: border-color 0.3s;
+	/* Add transition effect */
+	display: block;
+	margin: 10px;
+	cursor: pointer;
+	opacity: 0.5;
+	border-radius: 10px;
+	transition: opacity 0.5s, background 0.5s;
+
+}
+
+.icons img:hover {
+
+	opacity: 1;
+	background: #3388cc;
+	/* Change border color on hover */
+}
+
+.active-icon {
+	opacity: 1;
+	background: #3388cc;
+}
+
+.main-content {
+	width: 65%;
+	padding: 10px;
+	background-color: #5e5959;
+	border-radius: 10px;
+	margin-left: 10px;
+	margin-right: 10px;
+}
+
+.image-container {
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+	grid-gap: 10px;
+}
+
+.image img {
+	width: 90%;
+	border-radius: 10px;
+	cursor: pointer;
+	height: 70%;
+}
+
+.main-icons {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.main-icons .call-icon {
+	width: 60px;
+}
+
+.sidebar {
+	width: 25%;
+	background-color: rgb(17, 41, 73);
+	padding: 20px;
+	border-radius: 10px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	/* Align items center */
+}
+
+.sidebar h3 {
+	margin-bottom: 10px;
+	color: white;
+}
+
+.sidebar ul {
+	list-style-type: none;
+	padding: 0;
+	margin-right: 100px;
+}
+
+.sidebar ul li {
+	margin-bottom: 10px;
+	color: white;
+	display: flex;
+	align-items: center;
+	/* Align items center */
+}
+
+.sidebar ul li img {
+	margin-right: 10px;
+	height: 50px;
+	width: 50px;
+}
