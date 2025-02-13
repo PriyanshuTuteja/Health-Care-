@@ -8,8 +8,12 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 20px 10%;
-    background-color: #24252a;
+    padding: 20px 5%;
+    background-color: #1a1a1d;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    position: fixed;
+    width: 100%;
+    z-index: 1000;
   }
   
   .nav__links a,
@@ -63,7 +67,7 @@
     z-index: 1;
     left: 0;
     top: 0;
-    background-color: #24252a;
+    background-color: rgba(0, 0, 0, 0.9);
     overflow-x: hidden;
     transition: width 0.5s ease 0s;
   }
